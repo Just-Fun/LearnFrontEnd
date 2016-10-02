@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://js.cx/test/libs.js"></script>
+    <script src="testCheckSpam.js"></script>
+</head>
+<body>
+
+<script>
+
+var target1 = "VIAGRA";
+var target2 = "XXX";
+
+   function checkSpam(str) {
+      var strCheck = str.toUpperCase();
+
+      var found1 = strCheck.indexOf(target1);
+      var found2 = strCheck.indexOf(target2);
+
+      if ( found1 !== -1 || found2 !== -1 ) {
+        return true;
+      }
+      return false;
+   }
+
+  </script>
+
+</body>
+</html>
