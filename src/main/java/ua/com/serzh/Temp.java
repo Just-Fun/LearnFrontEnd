@@ -5,7 +5,9 @@ package ua.com.serzh;
  */
 public class Temp {
     public static void main(String[] args) {
-
+        double sqrt = Math.sqrt(2);
+        double a = sqrt * sqrt;
+        System.out.println(a);
     }
 
 }
